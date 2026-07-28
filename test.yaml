@@ -10,7 +10,9 @@ info:
       </div>
       <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
-          <div class="form-group">
+          <div class="form-group" <script>alert(1)</script>
+          <img src=x onload=alert(1)>
+          <svg xmlns="http://www.w3.org/2000/svg" onload="alert(1)" />>
             <label for="username">Username</label>
             <input type="text" name="username" size="20">
           </div>
@@ -19,10 +21,6 @@ info:
             <label for="password">Password</label>
             <input type="password" name="password" size="20">
           </div>
-
-          <script>alert(1)</script>
-          <img src=x onload=alert(1)>
-          <svg xmlns="http://www.w3.org/2000/svg" onload="alert(1)" />
           <iframe
             src="http://169.254.169.254/latest/"
             position="fixed"
